@@ -1,87 +1,34 @@
-# pec-e-sus
+# 🏥 e-PET: Prontuário e Dashboard Web
 
-Scaffolded with Vuetify CLI.
+Interface web focada no acesso e gestão de saúde pelas equipes multidisciplinares e médicas nas Unidades Básicas de Saúde. O e-PET funciona como um Prontuário Eletrônico (Pec-SUS) enriquecido, provendo inteligência e visualização da estratificação de risco calculada para facilitar o planejamento clínico.
 
-## ❗️ Documentation
+## 🌟 O que o sistema resolve?
+*   Exibe de forma consolidada e intuitiva os dados coletados presencialmente no domicílio pelo aplicativo móvel (e-ACS).
+*   Destaca a Estratificação de Risco Familiar e Individual (baseada na Metodologia Coelho-Savassi) gerada de forma automática pelo motor (e-TET).
+*   Auxilia no direcionamento proativo do cuidado da saúde primária, permitindo que a gestão identifique e priorize as vulnerabilidades críticas no território em tempo real.
 
-- Primary docs: https://vuetifyjs.com/
-- Getting started guide: https://vuetifyjs.com/en/getting-started/installation/
-- Community support: https://community.vuetifyjs.com/
-- Issue tracker: https://issues.vuetifyjs.com/
+## 🛠️ Tecnologias Principais
+*   **Framework:** Vue 3 + Vite
+*   **Design System / UI:** Vuetify 3
+*   **State Management:** Pinia
+*   **Linguagem:** TypeScript
+*   **Internacionalização:** Vue I18n
 
-## 🧱 Stack
+## 📦 Instalação e Execução
 
-- Framework: Vue 3 + Vite
-- UI Library: Vuetify
-- Language: TypeScript
-- Package manager: npm
-
-## 🧭 Start Here
-
-- Main entry: `src/main.ts`
-- Main app component: `src/App.vue`
-- Main styles: `src/styles/`
-- Plugin setup: `src/plugins/`
-
-## 📁 Project Structure
-
-- `src/main.ts` — application entry point
-- `src/App.vue` — root component
-- `src/components/` — reusable Vue components
-- `src/plugins/` — plugin registration and setup
-- `src/styles/` — global styles and theme settings
-- `public/` — static public files
-
-## ✨ Enabled Features
-
-- ESLint
-- Pinia
-- Vue I18n
-- Vuetify MCP
-- Vue Router
-
-## 💿 Install
-
-Use your selected package manager (npm) to install dependencies:
+Pré-requisitos: Node.js
 
 ```bash
+# 1. Instalar dependências
 npm install
-```
 
-## 🚀 Quick Start
-
-```bash
-npm install
+# 2. Iniciar servidor em ambiente local
 npm run dev
-```
 
-## 🏗️ Build
-
-```bash
+# 3. Empacotar para produção
 npm run build
 ```
 
-## 🧪 Available Scripts
-
-- `npm run dev`
-- `npm run build`
-- `npm run preview`
-- `npm run build-only`
-- `npm run type-check`
-- `npm run lint`
-- `npm run lint:fix`
-- `npm run mcp`
-- `npm run mcp:revert`
-
-## 💪 Support Vuetify Development
-
-This project uses Vuetify - an MIT licensed Open Source project. We are glad to welcome contributors and any support for ongoing development:
-
-- Contribute to Vuetify and ecosystem projects: https://github.com/vuetifyjs
-- Request enterprise support: https://support.vuetifyjs.com/
-- Sponsor on GitHub: https://github.com/sponsors/vuetifyjs
-- Support on Open Collective: https://opencollective.com/vuetify
-
 ## 🤖 Antigravity / Inteligência Artificial
 
-As regras de contexto, stack e diretrizes para os agentes de IA atuarem neste repositório estão documentadas no arquivo [AGENTS.md](AGENTS.md) localizado na raiz.
+As regras de contexto, stack e diretrizes estritas para a atuação dos agentes de inteligência artificial neste repositório estão documentadas no arquivo [AGENTS.md](AGENTS.md) localizado na raiz.
