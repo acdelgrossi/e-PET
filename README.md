@@ -1,36 +1,20 @@
-> ⚠️ **Novo Desenvolvedor?** [Leia o Guia de Handover (Transferência) aqui antes de começar!](docs/HANDOVER.md)
+# 💻 e-PET: Painel Web de Gestão
 
-# 🏥 e-PET: Prontuário e Dashboard Web
+> ⚠️ **Documentação Centralizada (SSOT)**
+>
+> Em aderência às melhores práticas de engenharia de software, este repositório adota o princípio de **Single Source of Truth (Fonte Única de Verdade)**. 
+> 
+> Todos os manuais, decisões arquiteturais, guias e detalhes técnicos estão consolidados estruturalmente na pasta `docs/`.
 
-Interface web focada no acesso e gestão de saúde pelas equipes multidisciplinares e médicas nas Unidades Básicas de Saúde. O e-PET funciona como um Prontuário Eletrônico (Pec-SUS) enriquecido, provendo inteligência e visualização da estratificação de risco calculada para facilitar o planejamento clínico.
+## 📚 Índice de Documentação (`docs/`)
 
-## 🌟 O que o sistema resolve?
-*   Exibe de forma consolidada e intuitiva os dados coletados presencialmente no domicílio pelo aplicativo móvel (e-ACS).
-*   Destaca a Estratificação de Risco Familiar e Individual (baseada na Metodologia Coelho-Savassi) gerada de forma automática pelo motor (e-TET).
-*   Auxilia no direcionamento proativo do cuidado da saúde primária, permitindo que a gestão identifique e priorize as vulnerabilidades críticas no território em tempo real.
+Explore nossa documentação profissional nas respectivas pastas:
 
-## 🛠️ Tecnologias Principais
-*   **Framework:** Vue 3 + Vite
-*   **Design System / UI:** Vuetify 3
-*   **State Management:** Pinia
-*   **Linguagem:** TypeScript
-*   **Internacionalização:** Vue I18n
+- 📖 **[Onboarding & Handover](docs/handover/HANDOVER.md)**: Novo no time? Comece por aqui.
+- 🏗️ **[Arquitetura e Decisões Técnicas](docs/architecture/)**: Regras de negócio e decisões de desenvolvimento.
+- 🛡️ **[Padrões de Documentação e Guardrails](docs/guardrails/DOCUMENTATION_STANDARDS.md)**: Regras para aprovação de Pull Requests.
+- 🛠️ **[Guias (Guides)](docs/guides/)**: Troubleshooting e guias operacionais.
 
-## 📦 Instalação e Execução
-
-Pré-requisitos: Node.js
-
-```bash
-# 1. Instalar dependências
-npm install
-
-# 2. Iniciar servidor em ambiente local
-npm run dev
-
-# 3. Empacotar para produção
-npm run build
-```
-
-## 🤖 Antigravity / Inteligência Artificial
-
-As regras de contexto, stack e diretrizes estritas para a atuação dos agentes de inteligência artificial neste repositório estão documentadas no arquivo [AGENTS.md](AGENTS.md) localizado na raiz.
+## 🚀 Resumo do Projeto
+O aplicativo front-end construído em **Vue 3 + Vite** para uso nos desktops das Unidades Básicas de Saúde (UBS). 
+É a interface onde enfermeiros, médicos e gestores acompanham os dados coletados pelos ACS no aplicativo móvel. Possui dashboards analíticos para metas do Previne Brasil, listagens de pacientes e relatórios consolidados.
