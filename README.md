@@ -1,3 +1,5 @@
+> ⚠️ **Novo Desenvolvedor?** [Leia o Guia de Handover (Transferência) aqui antes de começar!](docs/HANDOVER.md)
+
 # 🏥 e-PET: Prontuário e Dashboard Web
 
 Interface web focada no acesso e gestão de saúde pelas equipes multidisciplinares e médicas nas Unidades Básicas de Saúde. O e-PET funciona como um Prontuário Eletrônico (Pec-SUS) enriquecido, provendo inteligência e visualização da estratificação de risco calculada para facilitar o planejamento clínico.
