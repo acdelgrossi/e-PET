@@ -138,7 +138,7 @@
   const menuItems = [
     { title: 'Dashboard', icon: 'mdi-view-dashboard', value: 'dashboard', to: '/dashboard' },
     { title: 'Cidadãos', icon: 'mdi-account-group', value: 'citizens', to: '/' },
-   { title: 'Simulação PEC', icon: 'mdi-monitor-eye', value: 'simulacao-pec', to: '/simulacao-pec' },
+    { title: 'Simulação PEC', icon: 'mdi-monitor-eye', value: 'simulacao-pec', to: '/simulacao-pec' },
   ]
 
   const breadcrumbs = computed(() => {
