@@ -3,6 +3,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 import DashboardView from '@/pages/DashboardView.vue'
 import Index from '@/pages/index.vue'
 import LoginView from '@/pages/LoginView.vue'
+import SimulacaoPec from '@/pages/SimulacaoPec.vue'
 import TerritoryListView from '@/pages/TerritoryListView.vue'
 import VisualizacaoCidadao from '@/pages/VisualizacaoCidadao.vue'
 import { useAuthStore } from '@/stores/authStore'
@@ -40,6 +41,11 @@ const router = createRouter({
           name: 'citizen-summary',
           component: VisualizacaoCidadao,
           props: true,
+        },
+        {
+          path: 'simulacao-pec',
+          name: 'simulacao-pec',
+          component: SimulacaoPec,
         },
         {
           path: 'territory',
